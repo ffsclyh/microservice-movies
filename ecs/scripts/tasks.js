@@ -13,9 +13,9 @@ const AWS_ACCOUNT_ID = process.env.AWS_ACCOUNT_ID;
 const AWS_ACCESS_KEY_ID = process.env.AWS_ACCESS_KEY_ID;
 const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
 const AWS_USERNAME = process.env.AWS_USERNAME;
-const AWS_CONFIG_REGION = 'us-west-2';
+const AWS_CONFIG_REGION = 'us-east-1';
 const SHORT_GIT_HASH = process.env.CIRCLE_SHA1.substring(0, 7);
-const LOAD_BALANCER_DNS = 'http://microservicemovies-review-476947634.us-west-2.elb.amazonaws.com';
+const LOAD_BALANCER_DNS = 'http://microservicemovies-review-1394627960.us-east-1.elb.amazonaws.com';
 
 
 // config
