@@ -10,9 +10,9 @@ const AWS_SECRET_ACCESS_KEY = process.env.AWS_SECRET_ACCESS_KEY;
 const AWS_USERNAME = process.env.AWS_USERNAME;
 const AWS_CONFIG_REGION = 'us-east-1';
 const SHORT_GIT_HASH = process.env.CIRCLE_SHA1.substring(0, 7);
-const VPC_ID='vpc-b1039dd7';
-const DEFAULT_TARGET_GROUP_ARN = 'arn:aws:elasticloadbalancing:us-west-2:046505967931:targetgroup/review-default/8d3d2ac4ab98bb89';
-const LOAD_BALANCER_ARN = 'arn:aws:elasticloadbalancing:us-west-2:046505967931:loadbalancer/app/microservicemovies-review/493be740ee6aea54';
+const VPC_ID='vpc-00a7c1691cfa7ace6';
+const DEFAULT_TARGET_GROUP_ARN = 'arn:aws:elasticloadbalancing:us-east-1:058942811707:targetgroup/review-default/c350f426fd766906';
+const LOAD_BALANCER_ARN = 'arn:aws:elasticloadbalancing:us-east-1:058942811707:loadbalancer/app/microservicemovies-review/83377d4b022c6547';
 
 let USERS_TARGET_GROUP_ARN;
 let MOVIES_TARGET_GROUP_ARN;
