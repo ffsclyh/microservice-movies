@@ -5,7 +5,7 @@
 
 set -e
 
-ECS_REGION="us-west-2"
+ECS_REGION="us-east-1"
 NAMESPACE="microservicemovies"
 IMAGE_BASE="microservicemovies"
 ECR_URI="${AWS_ACCOUNT_ID}.dkr.ecr.${ECS_REGION}.amazonaws.com"
