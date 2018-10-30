@@ -10,8 +10,7 @@ function createMoviesService(cluster, name, targetGroup) {
         containerPort: 3000
       }
     ],
-    desiredCount: 1,
-    role: "ecsServiceRole"
+    desiredCount: 1
   };
   return params;
 }
