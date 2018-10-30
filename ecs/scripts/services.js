@@ -83,7 +83,7 @@ return ensureAuthenticated()
     return group.TargetGroupName.includes(SHORT_GIT_HASH);
   });
   for (const group of groups) {
-    console.log('TargetGroup in LB: " + group.TargetGroupName ) ;  
+    console.log('TargetGroup in LB: %s ' , group.TargetGroupName ) ;  
     if (group.TargetGroupName.includes('users')) {
       USERS_TARGET_GROUP_ARN = group.TargetGroupArn;
     }
